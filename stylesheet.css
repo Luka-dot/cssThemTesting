@@ -85,7 +85,23 @@
     background: var(--navBg);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
     font-size: 1.1rem;
-    position: relative;
+    position: fixed;
+    padding: 15px 20px 15px 25px;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  .navMenu {
+    flex-basis: 70%;
+    max-width: 550px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navMenu span:hover {
+    background-color: #484b5b;
   }
   
   nav ul {
@@ -114,10 +130,37 @@
   }
   
   main {
-    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3.5rem;
     background: var(--mainBg);
     height: calc(100vh - var(--navHeight));
+  }
+
+  section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+  }
+  
+  .home {
+    background-color: #9c1de7;
+  }
+  
+  .about {
+    background-color: #28c7fa;
+  }
+  
+  .services {
+    background-color: #f85959;
+  }
+  
+  .downloads {
+    background-color: #107a8b;
+  }
+  
+  .contact {
+    background-color: #fd0054;
   }
