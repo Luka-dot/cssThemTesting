@@ -10,23 +10,52 @@
     <header>
       <nav>
         <ul>
+            <a href="#home" class="navItem">Logo</a>
           <li>
-            <label class="switch">
+            <label class="switch navMenu">
               <i class="fas fa-adjust"></i>
               <div>
                 <input type="checkbox" />
                 <span class="slider round"></span>
+                
               </div>
             </label>
           </li>
-          <li>Home</li>
-          <li>Services</li>
-          <li>Contact</li>
-          <li>About</li>
+          <li><a href="#home" class="homeNavItem navItem">Home</a></li>
+          <li><a href="#about" class="aboutNavItem navItem">About</a></li>
+          <li><a href="#services" class="servicesNavItem navItem">Services</a></li>
+          <li><a href="#downloads" class="downloadsNavItem navItem">Downloads</a></li>
+          <li><a href="#contact" class="contactNavItem navItem">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main>Change My Theme</main>
+    <main>
+        <section class="home" id="home">
+            <h1>
+              Home
+            </h1>
+          </section>
+          <section class="about" id="about">
+            <h1>
+              About
+            </h1>
+          </section>
+          <section class="services" id="services">
+            <h1>
+              Services
+            </h1>
+          </section>
+          <section class="downloads" id="downloads">
+            <h1>
+              Downloads
+            </h1>
+          </section>
+          <section class="contact" id="contact">
+            <h1>
+              Contact
+            </h1>
+          </section>
+    </main>
   </body>
   <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
   <script src="index.js"></script>
