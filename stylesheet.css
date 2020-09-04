@@ -17,6 +17,7 @@
     --navLinkHoverBg: var(--paleSpringBud);
     --mainBg: var(--goldCrayola);
     --fontColor: var(--black);
+    --themeSwitchColor: var(--sage);
   }
   
   .dark-theme {
@@ -26,12 +27,18 @@
     --navLinkHoverBg: var(--msuGreen);
     --mainBg: var(--msuGreen);
     --fontColor: var(--white);
+    --themeSwitchColor: var(--msuGreen);
+  }
+
+  .slider {
+    background-color: var(--themeSwitchColor);
   }
   
   * {
     color: var(--fontColor);
     margin: 0;
     padding: 0;
+    transition: background-color 0.6s ease, color 1s ease;
   }
   
   .switch {
