@@ -9,6 +9,24 @@
     --msuGreen: #2D4739;
     --gray: #eee;
   }
+
+  .light-theme {
+    --themeDropDownBg: var(--goldCrayola);
+    --themeIconBorderColor: var(--sage);
+    --navBg: var(--sage);
+    --navLinkHoverBg: var(--paleSpringBud);
+    --mainBg: var(--goldCrayola);
+    --fontColor: var(--black);
+  }
+  
+  .dark-theme {
+    --themeDropDownBg: var(--msuGreen);
+    --themeIconBorderColor: var(--richBlackForeground);
+    --navBg: var(--richBlackForeground);
+    --navLinkHoverBg: var(--msuGreen);
+    --mainBg: var(--msuGreen);
+    --fontColor: var(--white);
+  }
   
   * {
     margin: 0;
