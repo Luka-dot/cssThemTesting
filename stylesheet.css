@@ -103,6 +103,10 @@
   .navMenu span:hover {
     background-color: #484b5b;
   }
+
+  .active {
+    border-bottom: 2px solid #fff;
+  }
   
   nav ul {
     list-style-type: none;
