@@ -1,5 +1,13 @@
-:root {
+  :root {
     --navHeight: 70px;
+    --sage: #D2CCA1;
+    --paleSpringBud: #DEDABA;
+    --goldCrayola: #E5C687;
+    --richBlackForeground: #0F1A20;
+    --white: #f8f8f8;
+    --black: #222;
+    --msuGreen: #2D4739;
+    --gray: #eee;
   }
   
   * {
