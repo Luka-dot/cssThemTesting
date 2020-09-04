@@ -29,6 +29,7 @@
   }
   
   * {
+    color: var(--fontColor);
     margin: 0;
     padding: 0;
   }
@@ -74,7 +75,7 @@
   }
   
   nav {
-    background: #d2cca1;
+    background: var(--navBg);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
     font-size: 1.1rem;
     position: relative;
@@ -102,7 +103,7 @@
   }
   
   nav ul li:hover {
-    background-color: #dedaba;
+    background-color: var(--navLinkHoverBg);
   }
   
   main {
@@ -110,6 +111,6 @@
     align-items: center;
     justify-content: center;
     font-size: 3.5rem;
-    background: #e5c687;
+    background: var(--mainBg);
     height: calc(100vh - var(--navHeight));
   }
