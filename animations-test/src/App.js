@@ -1,7 +1,7 @@
 import React from 'react';
 import { Fade, Bounce, Flip, Hinge, JackInTheBox, Roll, Rotate, Slide, Zoom } from 'react-awesome-reveal';
 
-import './App.css';
+//  import './App.css';
 import './mysas.scss';
 // import element from './animeTest';
 
@@ -21,7 +21,7 @@ function App() {
   }
 
   return (
-    <div className="mainView App">
+    <div className="mainView">
       <Fade>
         <p>I will gently appear as I enter the viewport</p>
       </Fade>

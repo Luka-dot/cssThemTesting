@@ -4,7 +4,18 @@ $compColor: rgb(224, 215, 250);
 
 .mainView {
     background: $mainColor;
- 
+    text-align: center;
     align-items: center;
     justify-content: center;
+    color:  $compColor;
 }
+
+button {
+    color: $compColor;
+    background: $accentColor;
+}
+
+.spacer {
+    margin-top: 40rem;
+}
+  
