@@ -1,0 +1,8 @@
+button {
+    color: $compColor;
+    background: $accentColor;
+    &:hover {
+        background: $compColor;
+        color: $accentColor;
+    }
+}

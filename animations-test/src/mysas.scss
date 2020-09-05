@@ -2,17 +2,14 @@ $mainColor: rgb(95, 95, 209);
 $accentColor: rgb(71, 66, 66);
 $compColor: rgb(224, 215, 250);
 
+@import './button';
+
 .mainView {
     background: $mainColor;
     text-align: center;
     align-items: center;
     justify-content: center;
     color:  $compColor;
-}
-
-button {
-    color: $compColor;
-    background: $accentColor;
 }
 
 .spacer {
