@@ -1,19 +1,32 @@
 import React from 'react';
 import { Fade, Bounce, Flip, Hinge, JackInTheBox, Roll, Rotate, Slide, Zoom } from 'react-awesome-reveal';
+
 import './App.css';
+// import element from './animeTest';
 
 function App() {
+  
+  const element = () => {
+    console.log('clicked')
+    const targetedElement = document.querySelector('.my-element');
+    targetedElement.classList.add('animate__animated', 'animate__backOutRight')
+  };
+
   return (
     <div className="App">
       <Fade>
         <p>I will gently appear as I enter the viewport</p>
       </Fade>
       <div className="spacer">
-        
-      </div>
-      <Bounce>
-        <p>Testing bounce effect</p>
+      <div className= "my-element">
+        <button onClick={element}>
+        <h3 >Custom JS element</h3>
+        </button>
+         <Bounce >
+        <p >Testing bounce effect</p>
       </Bounce>
+      </div>
+      </div>
       <div className="spacer">
         
       </div>
