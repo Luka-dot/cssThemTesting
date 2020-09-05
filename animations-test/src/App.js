@@ -49,9 +49,9 @@ function App() {
       <div className="spacer">
         
       </div>
-      <Roll>
-        <h3>ROLL</h3>
-      </Roll>
+      <Slide delay={1000}>
+        <h3>SLIDE</h3>
+      </Slide>
       <div className="spacer">
         
       </div>
