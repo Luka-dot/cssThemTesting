@@ -4,7 +4,6 @@ themeSwitch.addEventListener('change', () => {
   document.body.classList.toggle('dark-theme');
 });
 
-
 const sections = [
     selectElementByClass('home'),
     selectElementByClass('about'),
