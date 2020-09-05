@@ -8,9 +8,16 @@ function App() {
   
   const element = () => {
     console.log('clicked')
-    const targetedElement = document.querySelector('.my-element');
-    targetedElement.classList.add('animate__animated', 'animate__backOutRight')
+    const targetedElement = document.getElementById('my-element');
+    targetedElement.classList.add('animate__animated', 'animate__bounceOut');
+    setTimeout(function() {
+      deleteElement()
+    }, 1000);
+    
   };
+  const deleteElement = () => {
+    document.getElementById('my-element').remove();
+  }
 
   return (
     <div className="App">
@@ -18,7 +25,7 @@ function App() {
         <p>I will gently appear as I enter the viewport</p>
       </Fade>
       <div className="spacer">
-      <div className= "my-element">
+      <div id="my-element">
         <button onClick={element}>
         <h3 >Custom JS element</h3>
         </button>
