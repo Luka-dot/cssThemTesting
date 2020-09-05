@@ -1,0 +1,10 @@
+$mainColor: rgb(95, 95, 209);
+$accentColor: rgb(71, 66, 66);
+$compColor: rgb(224, 215, 250);
+
+.mainView {
+    background: $mainColor;
+ 
+    align-items: center;
+    justify-content: center;
+}
