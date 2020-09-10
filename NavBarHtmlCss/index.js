@@ -6,6 +6,7 @@ const themeSwitch = document.querySelector('input');
 //         return false;
 //     }
 // })
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 themeSwitch.addEventListener('change', () => {
   document.body.classList.toggle('dark-theme');
@@ -55,8 +56,20 @@ const observerOptions = {
         });
       }
     });
+    
   }
   
   const observer = new IntersectionObserver(observerCallback, observerOptions);
   
   sections.forEach((sec) => observer.observe(sec));
+
+  
+
+//   let prevent = document.querySelector("img");
+// allImages.forEach((value)=>{
+//     value.oncontextmenu = ()=>{
+//         return false;
+//     }
+// });
+
+// prevent()
