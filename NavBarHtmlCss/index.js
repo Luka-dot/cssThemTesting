@@ -1,5 +1,14 @@
 const themeSwitch = document.querySelector('input');
 
+let allImages = document.querySelector("img");
+allImages.forEach((value)=>{
+    value.oncontextmenu = ()=>{
+        return false;
+    }
+})
+
+allImages();
+
 themeSwitch.addEventListener('change', () => {
   document.body.classList.toggle('dark-theme');
 });

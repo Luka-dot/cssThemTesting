@@ -174,3 +174,11 @@
       left: 0;
       margin-left: 10px;
   }
+
+  img {
+    pointer-events: none;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+}
