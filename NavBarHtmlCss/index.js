@@ -8,7 +8,7 @@ const themeSwitch = document.querySelector('input');
 // })
 
 // provent RMC
-document.addEventListener('contextmenu', event => event.preventDefault());
+// document.addEventListener('contextmenu', event => event.preventDefault());
 
 themeSwitch.addEventListener('change', () => {
   document.body.classList.toggle('dark-theme');
