@@ -6,6 +6,8 @@ const themeSwitch = document.querySelector('input');
 //         return false;
 //     }
 // })
+
+// provent RMC
 document.addEventListener('contextmenu', event => event.preventDefault());
 
 themeSwitch.addEventListener('change', () => {

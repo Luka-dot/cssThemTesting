@@ -176,7 +176,7 @@
   }
 
   img {
-    
+    pointer-events: none;
     height:300px;
     width:250px
 }
