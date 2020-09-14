@@ -64,14 +64,3 @@ const observerOptions = {
   const observer = new IntersectionObserver(observerCallback, observerOptions);
   
   sections.forEach((sec) => observer.observe(sec));
-
-  
-
-//   let prevent = document.querySelector("img");
-// allImages.forEach((value)=>{
-//     value.oncontextmenu = ()=>{
-//         return false;
-//     }
-// });
-
-// prevent()
