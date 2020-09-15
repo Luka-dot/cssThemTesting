@@ -64,3 +64,14 @@ const observerOptions = {
   const observer = new IntersectionObserver(observerCallback, observerOptions);
   
   sections.forEach((sec) => observer.observe(sec));
+
+
+  // worldpress script run
+
+/*
+
+<script type="text/javascript">
+document.addEventListener('contextmenu', event => event.preventDefault());
+</script>
+
+*/
